@@ -21,3 +21,8 @@
   	align-content: center;
   	background-color: blue;
 }
+
+#go_to_landing{
+	display: block;
+	font-size: 18px;
+}

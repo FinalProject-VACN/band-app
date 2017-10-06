@@ -45,7 +45,8 @@ class FanMusicSearch extends Component{
   render(){
     return(
       <div className="musicSearch">
-
+        <a href="/"
+            id="go_to_landing">Go back to Landing</a>
         <h2 className="title">Well hello there!</h2>
 
         <h4 className="subtitle">What kind of music are you looking for?</h4>
