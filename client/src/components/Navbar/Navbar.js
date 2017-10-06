@@ -24,9 +24,9 @@ class Navbar extends Component{
   render(){
     return(
       <div>
-        <a href="/music-options">Search for other bands</a>
-        <a href={"/profile/" + this.props.bandId}>Band Profile</a>
-        <a href={"/gigs/" + this.props.bandId}>Gigs</a>
+        <a href="/music-options" className="nav-left">Search for other bands</a>
+        <a href={"/profile/" + this.props.bandId} className="nav-center">Band Profile</a>
+        <a href={"/gigs/" + this.props.bandId} className="nav-right">Gigs</a>
       </div>
     )
   }

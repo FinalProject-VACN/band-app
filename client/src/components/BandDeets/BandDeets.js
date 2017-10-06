@@ -4,17 +4,29 @@ import "./BandDeets.css";
 class BandDeets extends Component{
   render(){
     return(
-      <div className="row">
-        <div className="col-md-6">
+      <div>
+        <div>
           <img
           src={this.props.bandsData.photoURL}
           alt="dogs singing"
           className="bandProfilePicture"/>
         </div>
-        <div className="col-md-6">
+        
+
+        <div>
           <h2>{this.props.bandsData.name}</h2>
           <h4>{this.props.bandsData.bio}</h4>
-          <p>*Social Media icons go here*</p>
+          <div>
+              <a href="#"><img src="http://friendsofpritzker.org/wp-content/uploads/2016/03/facebook.png"
+              alt="facebook icon"
+              className="fa facebook_icon"/></a>
+              <a href="#"><img src="http://mcdanielsinteractive.com/_data/images/interface/social/youtube-variation.png"
+              alt="youtube icon"
+              className="fa youtube_icon"/></a>
+              <a href="#"><img src="http://icons.iconarchive.com/icons/sicons/basic-round-social/512/soundcloud-icon.png"
+              alt="youtube icon"
+              className="fa youtube_icon"/></a>
+          </div>
         </div>
       </div>
     )
