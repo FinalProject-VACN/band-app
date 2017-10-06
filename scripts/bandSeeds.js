@@ -35,7 +35,7 @@ const BandSeed = [
     genre: "experimental",
     location: "sf",
     bio: "New York experimental math-rock band Battles are known for combining pop music melodies with elements of experimental electronic music, post-modern serialism and jazz.",
-    newMemberSearch: true,
+    newMemberSearch: false,
     gigs:["Midway SF, 10/1/17"]
 
   },
@@ -55,7 +55,7 @@ const BandSeed = [
     genre:"garage",
     location:"oakland",
     bio: "best christian metal band ever",
-    newMemberSearch: true,
+    newMemberSearch: false,
     gigs:["Great American Music Hall, 9/28/2017"]
 
   },
@@ -84,7 +84,7 @@ const BandSeed = [
     genre:"folk",
     location:"berkely",
     bio: "best christian metal band ever",
-    newMemberSearch:true,
+    newMemberSearch:false,
     gigs:["Great American Music Hall, 9/28/2017"]
 
   },
@@ -104,7 +104,7 @@ const BandSeed = [
     genre:"psych",
     location:"sf",
     bio: "best christian metal band ever",
-    newMemberSearch:true,
+    newMemberSearch:false,
     gigs:["The Chapel, 3/16/17"]
 
   },
@@ -114,7 +114,7 @@ const BandSeed = [
     genre:"psych",
     location:"sf",
     bio: "best christian metal band ever",
-    newMemberSearch:true,
+    newMemberSearch:false,
     gigs:["Great American Music Hall, 9/28/2017"]
 
   },
@@ -134,7 +134,7 @@ const BandSeed = [
     genre:"soul",
     location:"oakland",
     bio: "best christian metal band ever",
-    newMemberSearch:true,
+    newMemberSearch:false,
     gigs:["Great American Music Hall, 9/28/2017"]
 
   },
@@ -174,10 +174,10 @@ const BandSeed = [
     genre:"soul",
     location:"sf",
     bio: "best christian metal band ever",
-    newMemberSearch:true,
+    newMemberSearch:false,
     gigs:["Great American Music Hall, 9/28/2017"]
 
-  } 
+  }
 ];
 
 Bands
