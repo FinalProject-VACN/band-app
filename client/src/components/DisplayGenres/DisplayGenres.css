@@ -28,6 +28,13 @@
   background-color: #E27C00;
 }
 
+.delete_buttons{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  float:right;
+}
 
 
 .bandText{
@@ -44,4 +51,3 @@
 button{
 	margin-auto: 5px;
 }
-
