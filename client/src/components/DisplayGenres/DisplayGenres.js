@@ -37,11 +37,13 @@ class DisplayGenres extends Component{
              <p></p>}
               <h3>{x.name}</h3>
               <p className= "bandText">Genre: <em>{x.genre}</em></p>
+              <div className ="row">
               <img
               className="bandImg"
               src={x.photoURL}
               alt="band gathering together"/>
-              <button className="btn btn-danger" id={x._id}
+              </div>
+              <button className="bandButton" id={x._id}
                 onClick={this.handleClick}
               >Go to bands profile</button>
             </div>

@@ -39,23 +39,23 @@ class DisplayGigs extends Component{
       date = this.props.gigData[0].split(", ")[1];
     }
     return(
-      <div>
+      <div className="gig_container">
         <div className="row">
           <div className="col-md-3">
-            <h2>Venue:</h2>
-            <h3>{place}</h3>
+            <h3 className="gig_header">Venue:</h3>
+            <h4>{place}</h4>
           </div>
           <div className="col-md-3">
-            <h2>Date:</h2>
-            <h3>{date}</h3>
-          </div>
-          <div  className="col-md-3">
-            <h2>Address:</h2>
-            <h3>{this.state.completeAddress}</h3>
+            <h3 className="gig_header">Date:</h3>
+            <h4>{date}</h4>
           </div>
           <div className="col-md-3">
-            <h2>Time:</h2>
-            <h3>10:00 AM</h3>
+            <h3 className="gig_header">Address:</h3>
+            <h4>{this.state.completeAddress}</h4>
+          </div>
+          <div className="col-md-3">
+            <h3 className="gig_header">Time:</h3>
+            <h4>10:00 AM</h4>
           </div>
         </div>
         <iframe

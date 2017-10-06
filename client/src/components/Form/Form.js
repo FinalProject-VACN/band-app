@@ -52,7 +52,7 @@ class Form extends Component {
   render() {
     return (
       <panel>
-      <div className = "container">
+      <div className = "form_container">
           <input
             value={this.state.name}
             onChange={this.handleInputChange}

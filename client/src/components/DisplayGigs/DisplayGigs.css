@@ -3,4 +3,16 @@
   height:300px;
   border: 1px solid black;
   margin-top: 10px;
+  border-radius: 10px;
+}
+
+.gig_header{
+  text-decoration: underline;
+}
+
+.gig_container{
+  background-color: #00449E;
+  padding:10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
