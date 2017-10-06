@@ -1,7 +1,8 @@
-1) Add 'looking for new member'
+
 2) add loading spinner
-3) increase width for 'music-options ' input
+
 4) Update local seeds
 5) add 'looking for opener' feature?
 6) Work on google maps? (Stretch goal)
 7) Add redirect on music options page
+8) style manage-bands-page

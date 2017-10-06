@@ -36,6 +36,12 @@ class DisplayGenres extends Component{
               id={x._id}>X</button> :
              <p></p>}
               <h3>{x.name}</h3>
+              <p className="bandText">
+
+                <em>{x.newMemberSearch ? "is looking for a new member"
+                :
+                 "is NOT looking for a new member"}</em>
+              </p>
               <p className= "bandText">Genre: <em>{x.genre}</em></p>
               <div className ="row">
               <img

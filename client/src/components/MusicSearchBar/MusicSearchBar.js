@@ -41,7 +41,7 @@ class SearchBar extends Component{
         </ul>
         <div className = "row">
           <input
-           id="genre"
+           id="genre_search"
             value = {this.state.searchGenre}
             onChange = {this.handleChange}
             name="genreSearch"
