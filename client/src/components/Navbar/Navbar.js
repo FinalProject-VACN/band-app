@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {signOut} from "../../helpers/auth";
+import "./Navbar.css";
 
 class Navbar extends Component{
   constructor(props){
@@ -23,10 +24,10 @@ class Navbar extends Component{
 
   render(){
     return(
-      <div>
-        <a href="/music-options">Search for other bands</a>
-        <a href={"/profile/" + this.props.bandId}>Band Profile</a>
-        <a href={"/gigs/" + this.props.bandId}>Gigs</a>
+      <div className="profile_nav">
+        <a className="profile_navbar_elem" href="/music-options">Search for other bands</a>
+        <a className="profile_navbar_elem" href={"/profile/" + this.props.bandId}>Band Profile</a>
+        <a className="profile_navbar_elem" href={"/gigs/" + this.props.bandId}>Gigs</a>
       </div>
     )
   }
