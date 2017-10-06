@@ -40,7 +40,14 @@ class DisplayGenres extends Component{
 
                 <em>{x.newMemberSearch ? "is looking for a new member"
                 :
-                 "is NOT looking for a new member"}</em>
+                 ""}</em>
+              </p>
+              {/*<p className="bandText">&amp;</p>*/}
+              <p className="bandText">
+
+                <em>{Math.round(Math.random()) ? "is looking for an opener"
+                :
+                 ""}</em>
               </p>
               <p className= "bandText">Genre: <em>{x.genre}</em></p>
               <div className ="row">
