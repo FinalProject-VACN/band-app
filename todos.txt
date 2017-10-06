@@ -5,6 +5,5 @@
 5) add 'looking for opener' feature?
 6) Work on google maps? (Stretch goal)
 
-8) style manage-bands-page
 9) Update Readme
 10) Take Demo Video
