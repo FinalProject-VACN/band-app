@@ -24,6 +24,7 @@ class Navbar extends Component{
 
   render(){
     return(
+
       <div className="profile_nav">
         <a className="profile_navbar_elem" href="/music-options">Search for other bands</a>
         <a className="profile_navbar_elem" href={"/profile/" + this.props.bandId}>Band Profile</a>

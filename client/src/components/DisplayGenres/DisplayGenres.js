@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import API from '../../utils/API';
 import './DisplayGenres.css';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 class DisplayGenres extends Component{
   constructor(props){
