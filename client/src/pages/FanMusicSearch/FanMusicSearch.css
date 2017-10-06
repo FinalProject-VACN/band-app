@@ -11,3 +11,8 @@
   	align-content: center;
   	background-color: blue;
 }
+
+.oneBand:hover{
+	font-size: 30px;
+	position:relative;
+}
