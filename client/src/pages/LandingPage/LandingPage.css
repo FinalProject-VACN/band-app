@@ -4,11 +4,13 @@
   color:white;
   border-radius: 10px;
   border:none;
+  transition-duration:1s
 }
 
 #user_button:hover{
   background-color:#0a0a0a;
   border: 2px solid  #e27c00;
+  transform:scale(2);
 }
 
 .intro_text{
