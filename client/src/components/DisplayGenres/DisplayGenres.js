@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import API from '../../utils/API';
 import './DisplayGenres.css';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 class DisplayGenres extends Component{
   constructor(props){
@@ -36,6 +36,19 @@ class DisplayGenres extends Component{
               id={x._id}>X</button> :
              <p></p>}
               <h3>{x.name}</h3>
+              <p className="bandText">
+
+                <em>{x.newMemberSearch ? "is looking for a new member"
+                :
+                 ""}</em>
+              </p>
+              {/*<p className="bandText">&amp;</p>*/}
+              <p className="bandText">
+
+                <em>{Math.round(Math.random()) ? "is looking for an opener"
+                :
+                 ""}</em>
+              </p>
               <p className= "bandText">Genre: <em>{x.genre}</em></p>
               <div className ="row">
               <img

@@ -27,8 +27,8 @@ class ManageBands extends Component {
     return (
       <div>
       <a href="/admin">Go back to admin page</a>
-      <h3>Want to delete band?</h3>
-      <p>Click on the X button below</p>
+      <h3>Want to delete a band?</h3>
+      <p className="bandText">Click on the X button below</p>
 
       <DisplayGenres
       bandData = {this.state.allBands}

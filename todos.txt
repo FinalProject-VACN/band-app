@@ -1,9 +1,8 @@
 
-1) Sign-up page - 10/3
-2) Band Profile Songs
-3) re-do auth? - 10/3
-4) Styling - 10/3
-5) More features to music-search (looking for members)
-6) Auth state different when logged in and when not logged in
 
-7) Chat Functionality (stretch goal)
+
+
+5) add 'looking for opener' feature?
+6) Work on google maps? (Stretch goal)
+
+10) Take Demo Video
