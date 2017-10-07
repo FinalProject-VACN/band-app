@@ -4,9 +4,11 @@
   color:white;
   border-radius: 10px;
   border:none;
+  transition-duration:1s;
 }
 
 #admin_button:hover{
   border:2px solid #00449E;
   background-color:#0a0a0a;
+  transform:scale(2);
 }
