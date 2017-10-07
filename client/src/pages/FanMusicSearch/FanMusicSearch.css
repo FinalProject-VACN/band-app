@@ -22,9 +22,10 @@
   	background-color: blue;
 }
 
-.oneBand:hover{
+/*.oneBand:hover{
 	font-size: 30px;
 	position:relative;
+}*/
 
 #go_to_landing{
 	display: block;
